@@ -39,6 +39,6 @@
     ```python
        #将正则表达式pattern匹配到的字符串替换为rep1制定的字符串，count用于指定最大替换次数
        s = "the sum of 7 and 9 is [7+9]."
-       print(re.sub('\[7+9\]',''16,s))
+       print(re.sub('\[7+9\]','16',s))
        # output> the sum of 7 and 9 is 16.
     ```
