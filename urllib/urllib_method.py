@@ -18,3 +18,12 @@ print(code)
 # geturl()  获取当前页面的url
 url = file.geturl()
 print(url)
+
+# 设置请求超时
+url = "http://tieba.baidu.com"
+for i in range(0,100):
+    try:
+        response = urllib.request.urlopen(url, timeout=0.25)
+        print(len(response.read().decode('utf-8')))
+    except Exception as err:
+        print("出现异常" + str(err))
