@@ -42,3 +42,9 @@
        print(re.sub('\[7+9\]','16',s))
        # output> the sum of 7 and 9 is 16.
     ```
+ * ###  2.urllib模块
+    + ### 该库有4个模块，分别是：
+        + urllib.request
+        + urllib.error
+        + urllib.parse
+        + urllib.robotparser
