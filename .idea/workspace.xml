@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef3294c-2188-4150-ac68-72e010deb835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/urllib/urllib_get.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urllib/urllib_detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib/urllib_method.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +12,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Crawler$urllib_method.coverage" NAME="urllib_method Coverage Results" MODIFIED="1556004026525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/urllib" />
+    <SUITE FILE_PATH="coverage/Crawler$urllib_get.coverage" NAME="urllib_get Coverage Results" MODIFIED="1556006121217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/urllib" />
     <SUITE FILE_PATH="coverage/Crawler$csdn_title.coverage" NAME="csdn_title Coverage Results" MODIFIED="1555905234781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
     <SUITE FILE_PATH="coverage/Crawler$urllib_detail.coverage" NAME="urllib_detail Coverage Results" MODIFIED="1556001948721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/urllib" />
     <SUITE FILE_PATH="coverage/Crawler$browser_camouflage.coverage" NAME="browser_camouflage Coverage Results" MODIFIED="1555918775022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
@@ -48,14 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urllib/urllib_method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="656">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urllib/urllib_get.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -114,6 +125,8 @@
         <option value="$PROJECT_DIR$/example/browser_camouflage.py" />
         <option value="$PROJECT_DIR$/urllib/urllib_detail.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/urllib/urllib_method.py" />
+        <option value="$PROJECT_DIR$/urllib/urllib_get.py" />
       </list>
     </option>
   </component>
@@ -200,29 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.urllib_detail">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.urllib_get">
     <configuration name="browser_camouflage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,25 +258,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Crawler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/hello.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="urllib_detail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,13 +280,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="urllib_get" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urllib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib/urllib_get.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urllib_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urllib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib/urllib_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.urllib_get" />
+        <item itemvalue="Python.urllib_method" />
         <item itemvalue="Python.urllib_detail" />
         <item itemvalue="Python.browser_camouflage" />
         <item itemvalue="Python.csdn_title" />
-        <item itemvalue="Python.hello" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +358,7 @@
       <workItem from="1555552440358" duration="3104000" />
       <workItem from="1555555659266" duration="1227000" />
       <workItem from="1555557336343" duration="17712000" />
-      <workItem from="1555896124553" duration="17652000" />
+      <workItem from="1555896124553" duration="20720000" />
     </task>
     <task id="LOCAL-00001" summary="README 正则基本用法">
       <created>1555382784022</created>
@@ -372,11 +388,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556002578563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="重命名">
+      <created>1556003178895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556003178895</updated>
+    </task>
+    <task id="LOCAL-00006" summary="urllib设置请求超时">
+      <created>1556004340825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556004340825</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59294000" />
+    <option name="totallyTimeSpent" value="62362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -388,7 +418,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40455532" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45553145" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,7 +443,9 @@
     <MESSAGE value="将爬下来的数据封装成对象" />
     <MESSAGE value="将爬取的数据存入数据库" />
     <MESSAGE value="urllib 模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="urllib 模块" />
+    <MESSAGE value="重命名" />
+    <MESSAGE value="urllib设置请求超时" />
+    <option name="LAST_COMMIT_MESSAGE" value="urllib设置请求超时" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Crawler$hello.coverage" NAME="hello Coverage Results" MODIFIED="1555126778260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -454,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../python_sdk/Lib/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="228" column="64" lean-forward="true" selection-start-line="228" selection-start-column="64" selection-end-line="228" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -478,13 +503,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../python_sdk/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1322">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/urllib/urllib_method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="656">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urllib/urllib_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
